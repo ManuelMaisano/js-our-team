@@ -6,6 +6,8 @@
 // Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
 // MILESTONE 2:
 // Stampare le stesse informazioni su DOM sottoforma di stringhe
+//BONUS 1:
+//Trasformare la stringa foto in una immagine effettiva
 
 
 
@@ -60,18 +62,25 @@ for (let i = 0; i < team.length; i++) {
         let infoTeams = listTeam[key]
         console.log(infoTeams);
     }
-
+    // MILESTONE 2:
+// Stampare le stesse informazioni su DOM sottoforma di stringhe
     teamCompany.innerHTML += `
     <li>
-        <div class="card-container">
-            <img src="./img/${listTeam.photo}">
-            <div>
-                <h4>${listTeam['name']}</h4>
-                <small> ${listTeam.roleCompany}</small>
-            </div>
-        </div>
+    ${listTeam['name']} ${listTeam.roleCompany} ${listTeam.photo}
     </li>
     `;
+
+    //teamCompany.innerHTML += `
+    //<li>
+       // <div class="card-container">
+           // <img src="./img/${listTeam.photo}">
+           // <div>
+               // <h4>${listTeam['name']}</h4>
+                //<small> ${listTeam.roleCompany}</small>
+           // </div>
+       // </div>
+   // </li>
+    
 
 }
 
