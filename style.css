@@ -37,6 +37,15 @@ main {
     align-items: center;
     justify-content: space-around;
 }
+.row ul  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.row ul li {
+    width: calc(100% / 3);
+}
 
 .title{
     height: 70px;

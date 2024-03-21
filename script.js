@@ -41,8 +41,8 @@ const team = [
     {
         name: 'Barbara Ramos',
         roleCompany: 'Graphic Designer	',
-        photo: '  barbara-ramos-graphic-designer.jpg'
-    },
+        photo: 'barbara-ramos-graphic-designer.jpg'
+    }
 
 ];
 
@@ -61,4 +61,17 @@ for (let i = 0; i < team.length; i++) {
         console.log(infoTeams);
     }
 
+    teamCompany.innerHTML += `
+    <li>
+        <div class="card-container">
+            <img src="./img/${listTeam.photo}">
+            <div>
+                <h4>${listTeam['name']}</h4>
+                <small> ${listTeam.roleCompany}</small>
+            </div>
+        </div>
+    </li>
+    `;
+
 }
+
