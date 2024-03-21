@@ -6,4 +6,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+li {
+    list-style: none;
+}
 
+
+/*----SUMMARY----*/
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+/*---MAIN----*/
+main {
+    display: flex;
+    align-items: flex-start;
+}
+
+.cointaner{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title{
+    height: 60px;
+}
