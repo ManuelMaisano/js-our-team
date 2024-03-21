@@ -48,7 +48,7 @@ const team = [
 
 console.log(team);
 
-//MILESTONE1
+//MILESTONE1+ bonus 1
 
 const teamCompany = document.querySelector('.teams')
 
