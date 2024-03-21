@@ -47,3 +47,18 @@ const team = [
 ];
 
 console.log(team);
+
+//MILESTONE1
+
+const teamCompany = document.querySelector('.teams')
+
+
+for (let i = 0; i < team.length; i++) {
+    let listTeam = team[i];
+
+    for (let key in listTeam) {
+        let infoTeams = listTeam[key]
+        console.log(infoTeams);
+    }
+
+}
