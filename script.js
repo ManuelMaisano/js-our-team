@@ -6,3 +6,44 @@
 // Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
 // MILESTONE 2:
 // Stampare le stesse informazioni su DOM sottoforma di stringhe
+
+
+
+//FIRST MILESTONE CREATE ARRAY OF OBJECT
+
+const team = [
+   
+    {
+        name: 'Wayne Barnett',
+        roleCompany: 'Founder & CEO',
+        photo: 'wayne-barnett-founder-ceo.jpg'
+    },
+    {
+        name: 'Angela Caroll',
+        roleCompany: 'Chief Editor	 ',
+        photo: 'angela-caroll-chief-editor.jpg'
+    },
+    {
+        name: 'Walter Gordon',
+        roleCompany: 'Office Manager',
+        photo: 'walter-gordon-office-manager.jpg'
+    },
+    {
+        name: 'Angela Lopez',
+        roleCompany: 'Social Media Manager',
+        photo: 'angela-lopez-social-media-manager.jpg'
+    },
+    {
+        name: 'Scott Estrada',
+        roleCompany: 'Developer',
+        photo: 'scott-estrada-developer.jpg'
+    },
+    {
+        name: 'Barbara Ramos',
+        roleCompany: 'Graphic Designer	',
+        photo: '  barbara-ramos-graphic-designer.jpg'
+    },
+
+];
+
+console.log(team);
